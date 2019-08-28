@@ -16,7 +16,7 @@ phases:
     commands:
       - echo Executing Build Phase
     finally:
-      - Executing Install Finally
+      - echo Executing Install Finally
   post_build:
     commands:
       - echo Executing Post Build Phase
