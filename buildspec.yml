@@ -24,4 +24,4 @@ phases:
       - echo Executing Post Build Finally
 artifacts:
   files:
-    - '**/*'
+      - '**/*'
