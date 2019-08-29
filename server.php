@@ -7,7 +7,7 @@ $errors = array();
 $_SESSION['success'] = "";
 
 // connect to database
-$db = mysqli_connect('mysqltest.cqjufw4hkgju.us-east-2.rds.amazonaws.com:3306', 'user2', 'YAMAHA1860', 'trial');
+$db = mysqli_connect('reg.cembe82h2thk.ap-south-1.rds.amazonaws.com:3306', 'admin', 'YAMAHA1860', 'reg');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
