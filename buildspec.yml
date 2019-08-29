@@ -3,6 +3,8 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      php: 7.3
     commands:
       - echo Executing Install Phase
     finally:
@@ -13,6 +15,8 @@ phases:
     finally:
       - echo Executing Pre Build Finally
   build:
+    commands:
+      - php --version
     commands:
       - echo Executing Build Phase
     finally:
