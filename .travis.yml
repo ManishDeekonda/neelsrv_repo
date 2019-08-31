@@ -9,5 +9,5 @@ before_install:
   - docker build -t dozetask001 .
 
 script:
-  - docker login -e="neel.97k@gmail.com" -u="neelsrv30" -p="qwerty1234";
+  - docker login -u="neelsrv30" -p="qwerty1234";
   - docker push dozetask001;
