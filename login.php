@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Registration system PHP and MySQL</title>
+  <title>Registra</title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
