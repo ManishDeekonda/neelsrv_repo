@@ -1,0 +1,13 @@
+language: php
+php:
+  - '7.1.16
+
+services:
+  - docker
+
+before_install:
+  - docker build -t dozetask001 .
+
+script:
+  - docker login -e="neel.97k@gmail.com" -u="neelsrv30" -p="qwerty1234";
+  - docker push dozetask001;
