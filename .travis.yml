@@ -10,4 +10,4 @@ before_install:
 
 script:
   - docker login -u="neelsrv30" -p="qwerty1234";
-  - docker push dozetask001;
+  - docker push neelsrv30/dozetask001;
