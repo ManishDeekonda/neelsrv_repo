@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Registration</title>
+  <title>Registration Process</title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
